@@ -1,0 +1,36 @@
+{
+    "variations": [
+        {
+            "name": "DsPvPv2 (Long Swords)",
+            "path": "variation_files/long_swords"
+        },
+        {
+            "name": "DsPvPv2 (Short Swords)",
+            "path": "variation_files/short_swords"
+        },
+        {
+            "name": "DsPvPv2 (Short Swords and Short Guards)",
+            "path": "variation_files/short_swords_guard"
+        },
+        {
+            "name": "DsPvPv2 (Medium Swords)",
+            "path": "variation_files/medium_swords"
+        },
+        {
+            "name": "DsPvPv2 (Henry's 1.14 default edit Swords)",
+            "path": "variation_files/henry_swords"
+        },
+        {
+            "name": "DsPvPv2 (Azula Swords)",
+            "path": "variation_files/azula_swords"
+        }
+    ],
+    "basePack": {
+        "name": "DsPvPv2",
+        "path": "pack"
+    },
+    "outPath": "out",
+    "buildJava": true,
+    "buildBedrock": true,
+    "buildBasePack": true
+}

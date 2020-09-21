@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "Particles by henrypacks on YouTube, v2 by naturecodevoid@GitHub, DsPvP by @disomocan7",
+        "name": "DsPvPv2",
+        "uuid": "fcd346ad-4d06-4852-8293-2f1fd67aa2ca",
+        "version": [1, 8, 0]
+    },
+    "modules": [
+        {
+            "description": "Particles by henrypacks on YouTube, v2 by naturecodevoid@GitHub, DsPvP by @disomocan7",
+            "type": "resources",
+            "uuid": "158bac03-ac85-4faa-8af8-c7e367da3af2",
+            "version": [1, 8, 0]
+        }
+    ]
+}
