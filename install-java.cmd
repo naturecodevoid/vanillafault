@@ -2,7 +2,7 @@
 
 @echo off
 
-set PACK_NAME=DsPvPv2
+set PACK_NAME=vanillafault
 
 title %PACK_NAME% Java Edition Installation
 
@@ -24,35 +24,35 @@ rd /S /Q "%RESOURCE_FOLDER%/%PACK_NAME%"
 
 md "%RESOURCE_FOLDER%/%PACK_NAME%"
 
-:: :: Variation DsPvPv2 (Long Swords)
-rm -R "%RESOURCE_FOLDER%/DsPvPv2 (Long Swords)"
+:: :: Variation vanillafault (Long Swords)
+rm -R "%RESOURCE_FOLDER%/vanillafault (Long Swords)"
 
-md "%RESOURCE_FOLDER%/DsPvPv2 (Long Swords)"
+md "%RESOURCE_FOLDER%/vanillafault (Long Swords)"
 
-:: :: Variation DsPvPv2 (Short Swords)
-rm -R "%RESOURCE_FOLDER%/DsPvPv2 (Short Swords)"
+:: :: Variation vanillafault (Short Swords)
+rm -R "%RESOURCE_FOLDER%/vanillafault (Short Swords)"
 
-md "%RESOURCE_FOLDER%/DsPvPv2 (Short Swords)"
+md "%RESOURCE_FOLDER%/vanillafault (Short Swords)"
 
-:: :: Variation DsPvPv2 (Short Swords and Short Guards)
-rm -R "%RESOURCE_FOLDER%/DsPvPv2 (Short Swords and Short Guards)"
+:: :: Variation vanillafault (Short Swords and Short Guards)
+rm -R "%RESOURCE_FOLDER%/vanillafault (Short Swords and Short Guards)"
 
-md "%RESOURCE_FOLDER%/DsPvPv2 (Short Swords and Short Guards)"
+md "%RESOURCE_FOLDER%/vanillafault (Short Swords and Short Guards)"
 
-:: :: Variation DsPvPv2 (Medium Swords)
-rm -R "%RESOURCE_FOLDER%/DsPvPv2 (Medium Swords)"
+:: :: Variation vanillafault (Medium Swords)
+rm -R "%RESOURCE_FOLDER%/vanillafault (Medium Swords)"
 
-md "%RESOURCE_FOLDER%/DsPvPv2 (Medium Swords)"
+md "%RESOURCE_FOLDER%/vanillafault (Medium Swords)"
 
-:: :: Variation DsPvPv2 (Henry's 1.14 default edit Swords)
-rm -R "%RESOURCE_FOLDER%/DsPvPv2 (Henry's 1.14 default edit Swords)"
+:: :: Variation vanillafault (Henry's 1.14 default edit Swords)
+rm -R "%RESOURCE_FOLDER%/vanillafault (Henry's 1.14 default edit Swords)"
 
-md "%RESOURCE_FOLDER%/DsPvPv2 (Henry's 1.14 default edit Swords)"
+md "%RESOURCE_FOLDER%/vanillafault (Henry's 1.14 default edit Swords)"
 
-:: :: Variation DsPvPv2 (Azula Swords)
-rm -R "%RESOURCE_FOLDER%/DsPvPv2 (Azula Swords)"
+:: :: Variation vanillafault (Azula Swords)
+rm -R "%RESOURCE_FOLDER%/vanillafault (Azula Swords)"
 
-md "%RESOURCE_FOLDER%/DsPvPv2 (Azula Swords)"
+md "%RESOURCE_FOLDER%/vanillafault (Azula Swords)"
 
 echo
 echo ==============================
@@ -61,25 +61,25 @@ echo ==============================
 echo
 
 :: :: Base pack
-robocopy /S /V /MIR "%~dp0/out/DsPvPv2/." "%RESOURCE_FOLDER%/%PACK_NAME%"
+robocopy /S /V /MIR "%~dp0/out/vanillafault/." "%RESOURCE_FOLDER%/%PACK_NAME%"
 
-:: :: Variation DsPvPv2 (Long Swords)
-robocopy /S /V /MIR "%~dp0/out/DsPvPv2 (Long Swords)/." "%RESOURCE_FOLDER%/DsPvPv2 (Long Swords)"
+:: :: Variation vanillafault (Long Swords)
+robocopy /S /V /MIR "%~dp0/out/vanillafault (Long Swords)/." "%RESOURCE_FOLDER%/vanillafault (Long Swords)"
 
-:: :: Variation DsPvPv2 (Short Swords)
-robocopy /S /V /MIR "%~dp0/out/DsPvPv2 (Short Swords)/." "%RESOURCE_FOLDER%/DsPvPv2 (Short Swords)"
+:: :: Variation vanillafault (Short Swords)
+robocopy /S /V /MIR "%~dp0/out/vanillafault (Short Swords)/." "%RESOURCE_FOLDER%/vanillafault (Short Swords)"
 
-:: :: Variation DsPvPv2 (Short Swords and Short Guards)
-robocopy /S /V /MIR "%~dp0/out/DsPvPv2 (Short Swords and Short Guards)/." "%RESOURCE_FOLDER%/DsPvPv2 (Short Swords and Short Guards)"
+:: :: Variation vanillafault (Short Swords and Short Guards)
+robocopy /S /V /MIR "%~dp0/out/vanillafault (Short Swords and Short Guards)/." "%RESOURCE_FOLDER%/vanillafault (Short Swords and Short Guards)"
 
-:: :: Variation DsPvPv2 (Medium Swords)
-robocopy /S /V /MIR "%~dp0/out/DsPvPv2 (Medium Swords)/." "%RESOURCE_FOLDER%/DsPvPv2 (Medium Swords)"
+:: :: Variation vanillafault (Medium Swords)
+robocopy /S /V /MIR "%~dp0/out/vanillafault (Medium Swords)/." "%RESOURCE_FOLDER%/vanillafault (Medium Swords)"
 
-:: :: Variation DsPvPv2 (Henry's 1.14 default edit Swords)
-robocopy /S /V /MIR "%~dp0/out/DsPvPv2 (Henry's 1.14 default edit Swords)/." "%RESOURCE_FOLDER%/DsPvPv2 (Henry's 1.14 default edit Swords)"
+:: :: Variation vanillafault (Henry's 1.14 default edit Swords)
+robocopy /S /V /MIR "%~dp0/out/vanillafault (Henry's 1.14 default edit Swords)/." "%RESOURCE_FOLDER%/vanillafault (Henry's 1.14 default edit Swords)"
 
-:: :: Variation DsPvPv2 (Azula Swords)
-robocopy /S /V /MIR "%~dp0/out/DsPvPv2 (Azula Swords)/." "%RESOURCE_FOLDER%/DsPvPv2 (Azula Swords)"
+:: :: Variation vanillafault (Azula Swords)
+robocopy /S /V /MIR "%~dp0/out/vanillafault (Azula Swords)/." "%RESOURCE_FOLDER%/vanillafault (Azula Swords)"
 
 echo Done!
 

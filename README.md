@@ -1,4 +1,4 @@
-# DsPvPv2
+# vanillafault
 
 A Minecraft resource pack based on default textures, for everyone.
 
@@ -19,7 +19,7 @@ to his YT channel [here](https://www.youtube.com/channel/UC-JyequQqNbgX4uEPPBJFJ
 
 ### Java edition/windows 10 edition
 
-[Download this repository](https://github.com/naturecodevoid/DsPvPv2/archive/master.zip) and run:
+[Download this repository](https://github.com/naturecodevoid/vanillafault/archive/master.zip) and run:
 
 -   Mac or Linux
     -   `sh ./install-java.sh` - For java edition (Minecraft Java Editon)
@@ -27,41 +27,41 @@ to his YT channel [here](https://www.youtube.com/channel/UC-JyequQqNbgX4uEPPBJFJ
     -   `install-bedrock.cmd` - For bedrock edition (Minecraft Windows 10 Edition)
     -   `install-java.cmd` - For java edition (Minecraft Java Editon)
 
-The latest release should also be at https://github.com/naturecodevoid/DsPvPv2/releases/latest. You can get `.mcpack`
+The latest release should also be at https://github.com/naturecodevoid/vanillafault/releases/latest. You can get `.mcpack`
 files (for bedrock edition) there, and `.zip` files for both platforms.
 
 **If you are on a version lower than 1.14 & play on java edition, I recommend getting the
 [1.14 textures](https://hypixel.net/threads/texture-pack-1-14-block-item-textures-for-1-8-now-with-connected-block-textures.2190166/)
 or downloading them
-[here](<https://github.com/naturecodevoid/DsPvPv2/raw/master/1.14%20Textures%20for%201.8%20(With%20Connected).zip>).**
+[here](<https://github.com/naturecodevoid/vanillafault/raw/master/1.14%20Textures%20for%201.8%20(With%20Connected).zip>).**
 
 ### Bedrock edition
 
 The pack should work on mobile (aka MCPE, Minecraft Pocket Edition, Minecraft Bedrock Edition, Minecraft).
 
 You can download and open the `.mcpack` file from the
-[latest release](https://github.com/naturecodevoid/DsPvPv2/releases/latest) on mobile or any other bedrock edition
+[latest release](https://github.com/naturecodevoid/vanillafault/releases/latest) on mobile or any other bedrock edition
 platform to auto-install.
 
 You can also get the `.mcpack` file from the
-[`out` directory](https://github.com/naturecodevoid/DsPvPv2/tree/master/out). Look for
-`DsPvPv2 {version} Bedrock.mcpack`, or similar.
+[`out` directory](https://github.com/naturecodevoid/vanillafault/tree/master/out). Look for
+`vanillafault {version} Bedrock.mcpack`, or similar.
 
 If you can't get the `.mcpack` file or I haven't put it up, you can also
-[download this repository](https://github.com/naturecodevoid/DsPvPv2/archive/master.zip), unzip it, and copy the files
+[download this repository](https://github.com/naturecodevoid/vanillafault/archive/master.zip), unzip it, and copy the files
 in `pack/assets/minecraft` to your [game files](https://minecraft.gamepedia.com/Com.mojang). **This is for advanced
 users _only_**.
 
 ### Java edition manual install
 
-Download the `.zip` file from https://github.com/naturecodevoid/DsPvPv2/releases/latest, and put it in your
+Download the `.zip` file from https://github.com/naturecodevoid/vanillafault/releases/latest, and put it in your
 [resource packs directory](https://minecraft.gamepedia.com/Resource_pack#Java_Edition).
 
 The `.zip` file may not be put up on the releases page, so you can use [this method](#installing) to install on java
 edition.
 
-You can also get the `.zip` file from the [`out` directory](https://github.com/naturecodevoid/DsPvPv2/tree/master/out).
-Look for `DsPvPv2 {version} Java.zip`, or similar.
+You can also get the `.zip` file from the [`out` directory](https://github.com/naturecodevoid/vanillafault/tree/master/out).
+Look for `vanillafault {version} Java.zip`, or similar.
 
 ## Versions
 
@@ -74,8 +74,8 @@ Look for `DsPvPv2 {version} Java.zip`, or similar.
 -   Azula Swords (swords by [keno on YouTube](https://www.youtube.com/channel/UCoLVr95y1SRxmvXDr-s-nqg) :heart:)
 
 [This method](#installing) installs both versions. If you are downloading from release or the
-[`out` directory](https://github.com/naturecodevoid/DsPvPv2/tree/master/out), look for
-`DsPvPv2 {version} {platform}.[mcpack or zip]`.
+[`out` directory](https://github.com/naturecodevoid/vanillafault/tree/master/out), look for
+`vanillafault {version} {platform}.[mcpack or zip]`.
 
 ## Help
 

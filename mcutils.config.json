@@ -1,32 +1,32 @@
 {
     "variations": [
         {
-            "name": "DsPvPv2 (Long Swords)",
+            "name": "vanillafault (Long Swords)",
             "path": "variation_files/long_swords"
         },
         {
-            "name": "DsPvPv2 (Short Swords)",
+            "name": "vanillafault (Short Swords)",
             "path": "variation_files/short_swords"
         },
         {
-            "name": "DsPvPv2 (Short Swords and Short Guards)",
+            "name": "vanillafault (Short Swords and Short Guards)",
             "path": "variation_files/short_swords_guard"
         },
         {
-            "name": "DsPvPv2 (Medium Swords)",
+            "name": "vanillafault (Medium Swords)",
             "path": "variation_files/medium_swords"
         },
         {
-            "name": "DsPvPv2 (Henry's 1.14 default edit Swords)",
+            "name": "vanillafault (Henry's 1.14 default edit Swords)",
             "path": "variation_files/henry_swords"
         },
         {
-            "name": "DsPvPv2 (Azula Swords)",
+            "name": "vanillafault (Azula Swords)",
             "path": "variation_files/azula_swords"
         }
     ],
     "basePack": {
-        "name": "DsPvPv2",
+        "name": "vanillafault",
         "path": "pack"
     },
     "outPath": "out",

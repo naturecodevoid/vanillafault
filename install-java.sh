@@ -4,7 +4,7 @@
 
 find . -name .DS_Store -print -delete
 
-PACK_NAME="DsPvPv2"
+PACK_NAME="vanillafault"
 
 # Set window title. This is complicated on linux
 echo -ne "\033]0;$PACK_NAME Java Edition Installation\007"
@@ -32,35 +32,35 @@ rm -R "$RESOURCE_FOLDER/$PACK_NAME"
 
 mkdir "$RESOURCE_FOLDER/$PACK_NAME"
 
-### Variation DsPvPv2 (Long Swords)
-rm -R "$RESOURCE_FOLDER/DsPvPv2 (Long Swords)"
+### Variation vanillafault (Long Swords)
+rm -R "$RESOURCE_FOLDER/vanillafault (Long Swords)"
 
-mkdir "$RESOURCE_FOLDER/DsPvPv2 (Long Swords)"
+mkdir "$RESOURCE_FOLDER/vanillafault (Long Swords)"
 
-### Variation DsPvPv2 (Short Swords)
-rm -R "$RESOURCE_FOLDER/DsPvPv2 (Short Swords)"
+### Variation vanillafault (Short Swords)
+rm -R "$RESOURCE_FOLDER/vanillafault (Short Swords)"
 
-mkdir "$RESOURCE_FOLDER/DsPvPv2 (Short Swords)"
+mkdir "$RESOURCE_FOLDER/vanillafault (Short Swords)"
 
-### Variation DsPvPv2 (Short Swords and Short Guards)
-rm -R "$RESOURCE_FOLDER/DsPvPv2 (Short Swords and Short Guards)"
+### Variation vanillafault (Short Swords and Short Guards)
+rm -R "$RESOURCE_FOLDER/vanillafault (Short Swords and Short Guards)"
 
-mkdir "$RESOURCE_FOLDER/DsPvPv2 (Short Swords and Short Guards)"
+mkdir "$RESOURCE_FOLDER/vanillafault (Short Swords and Short Guards)"
 
-### Variation DsPvPv2 (Medium Swords)
-rm -R "$RESOURCE_FOLDER/DsPvPv2 (Medium Swords)"
+### Variation vanillafault (Medium Swords)
+rm -R "$RESOURCE_FOLDER/vanillafault (Medium Swords)"
 
-mkdir "$RESOURCE_FOLDER/DsPvPv2 (Medium Swords)"
+mkdir "$RESOURCE_FOLDER/vanillafault (Medium Swords)"
 
-### Variation DsPvPv2 (Henry's 1.14 default edit Swords)
-rm -R "$RESOURCE_FOLDER/DsPvPv2 (Henry's 1.14 default edit Swords)"
+### Variation vanillafault (Henry's 1.14 default edit Swords)
+rm -R "$RESOURCE_FOLDER/vanillafault (Henry's 1.14 default edit Swords)"
 
-mkdir "$RESOURCE_FOLDER/DsPvPv2 (Henry's 1.14 default edit Swords)"
+mkdir "$RESOURCE_FOLDER/vanillafault (Henry's 1.14 default edit Swords)"
 
-### Variation DsPvPv2 (Azula Swords)
-rm -R "$RESOURCE_FOLDER/DsPvPv2 (Azula Swords)"
+### Variation vanillafault (Azula Swords)
+rm -R "$RESOURCE_FOLDER/vanillafault (Azula Swords)"
 
-mkdir "$RESOURCE_FOLDER/DsPvPv2 (Azula Swords)"
+mkdir "$RESOURCE_FOLDER/vanillafault (Azula Swords)"
 
 echo
 echo ==============================
@@ -69,25 +69,25 @@ echo ==============================
 echo
 
 ### Base pack
-cp -v -f -R "$PWD/out/DsPvPv2/." "$RESOURCE_FOLDER/$PACK_NAME"
+cp -v -f -R "$PWD/out/vanillafault/." "$RESOURCE_FOLDER/$PACK_NAME"
 
-### Variation DsPvPv2 (Long Swords)
-cp -v -f -R "$PWD/out/DsPvPv2 (Long Swords)/." "$RESOURCE_FOLDER/DsPvPv2 (Long Swords)"
+### Variation vanillafault (Long Swords)
+cp -v -f -R "$PWD/out/vanillafault (Long Swords)/." "$RESOURCE_FOLDER/vanillafault (Long Swords)"
 
-### Variation DsPvPv2 (Short Swords)
-cp -v -f -R "$PWD/out/DsPvPv2 (Short Swords)/." "$RESOURCE_FOLDER/DsPvPv2 (Short Swords)"
+### Variation vanillafault (Short Swords)
+cp -v -f -R "$PWD/out/vanillafault (Short Swords)/." "$RESOURCE_FOLDER/vanillafault (Short Swords)"
 
-### Variation DsPvPv2 (Short Swords and Short Guards)
-cp -v -f -R "$PWD/out/DsPvPv2 (Short Swords and Short Guards)/." "$RESOURCE_FOLDER/DsPvPv2 (Short Swords and Short Guards)"
+### Variation vanillafault (Short Swords and Short Guards)
+cp -v -f -R "$PWD/out/vanillafault (Short Swords and Short Guards)/." "$RESOURCE_FOLDER/vanillafault (Short Swords and Short Guards)"
 
-### Variation DsPvPv2 (Medium Swords)
-cp -v -f -R "$PWD/out/DsPvPv2 (Medium Swords)/." "$RESOURCE_FOLDER/DsPvPv2 (Medium Swords)"
+### Variation vanillafault (Medium Swords)
+cp -v -f -R "$PWD/out/vanillafault (Medium Swords)/." "$RESOURCE_FOLDER/vanillafault (Medium Swords)"
 
-### Variation DsPvPv2 (Henry's 1.14 default edit Swords)
-cp -v -f -R "$PWD/out/DsPvPv2 (Henry's 1.14 default edit Swords)/." "$RESOURCE_FOLDER/DsPvPv2 (Henry's 1.14 default edit Swords)"
+### Variation vanillafault (Henry's 1.14 default edit Swords)
+cp -v -f -R "$PWD/out/vanillafault (Henry's 1.14 default edit Swords)/." "$RESOURCE_FOLDER/vanillafault (Henry's 1.14 default edit Swords)"
 
-### Variation DsPvPv2 (Azula Swords)
-cp -v -f -R "$PWD/out/DsPvPv2 (Azula Swords)/." "$RESOURCE_FOLDER/DsPvPv2 (Azula Swords)"
+### Variation vanillafault (Azula Swords)
+cp -v -f -R "$PWD/out/vanillafault (Azula Swords)/." "$RESOURCE_FOLDER/vanillafault (Azula Swords)"
 
 echo
 echo Done!

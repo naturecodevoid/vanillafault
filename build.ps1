@@ -10,84 +10,84 @@ New-Item -ItemType Directory -Force -Path "./out"
 Remove-Item -Recurse -Force "./out/*"
 
 ### Base pack
-Copy-Item -Path "./pack/" -Force -Recurse -Destination "./out/DsPvPv2"
+Copy-Item -Path "./pack/" -Force -Recurse -Destination "./out/vanillafault"
 
 # Bedrock edition
-Get-ChildItem -Path "./out/DsPvPv2/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/DsPvPv2 Bedrock.zip"
-Move-Item "./out/DsPvPv2 Bedrock.zip" "./out/DsPvPv2 Bedrock.mcpack"
-Get-ChildItem -Path "./out/DsPvPv2/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/DsPvPv2 Bedrock.zip"
+Get-ChildItem -Path "./out/vanillafault/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/vanillafault Bedrock.zip"
+Move-Item "./out/vanillafault Bedrock.zip" "./out/vanillafault Bedrock.mcpack"
+Get-ChildItem -Path "./out/vanillafault/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/vanillafault Bedrock.zip"
 
 # Java edition
-Get-ChildItem -Path "./out/DsPvPv2/" | Compress-Archive -Force -DestinationPath "./out/DsPvPv2 Java.zip"
+Get-ChildItem -Path "./out/vanillafault/" | Compress-Archive -Force -DestinationPath "./out/vanillafault Java.zip"
 
-### Variation DsPvPv2 (Long Swords)
-Copy-Item -Path "./pack/" -Force -Recurse -Destination "./out/DsPvPv2 (Long Swords)"
-Copy-Item -Path "./variation_files/long_swords/*" -Force -Recurse -Destination "./out/DsPvPv2 (Long Swords)/"
+### Variation vanillafault (Long Swords)
+Copy-Item -Path "./pack/" -Force -Recurse -Destination "./out/vanillafault (Long Swords)"
+Copy-Item -Path "./variation_files/long_swords/*" -Force -Recurse -Destination "./out/vanillafault (Long Swords)/"
 
 # Bedrock edition
-Get-ChildItem -Path "./out/DsPvPv2 (Long Swords)/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/DsPvPv2 (Long Swords) Bedrock.zip"
-Move-Item "./out/DsPvPv2 (Long Swords) Bedrock.zip" "./out/DsPvPv2 (Long Swords) Bedrock.mcpack"
-Get-ChildItem -Path "./out/DsPvPv2 (Long Swords)/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/DsPvPv2 (Long Swords) Bedrock.zip"
+Get-ChildItem -Path "./out/vanillafault (Long Swords)/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/vanillafault (Long Swords) Bedrock.zip"
+Move-Item "./out/vanillafault (Long Swords) Bedrock.zip" "./out/vanillafault (Long Swords) Bedrock.mcpack"
+Get-ChildItem -Path "./out/vanillafault (Long Swords)/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/vanillafault (Long Swords) Bedrock.zip"
 
 # Java edition
-Get-ChildItem -Path "./out/DsPvPv2 (Long Swords)/" | Compress-Archive -Force -DestinationPath "./out/DsPvPv2 (Long Swords) Java.zip"
+Get-ChildItem -Path "./out/vanillafault (Long Swords)/" | Compress-Archive -Force -DestinationPath "./out/vanillafault (Long Swords) Java.zip"
 
-### Variation DsPvPv2 (Short Swords)
-Copy-Item -Path "./pack/" -Force -Recurse -Destination "./out/DsPvPv2 (Short Swords)"
-Copy-Item -Path "./variation_files/short_swords/*" -Force -Recurse -Destination "./out/DsPvPv2 (Short Swords)/"
+### Variation vanillafault (Short Swords)
+Copy-Item -Path "./pack/" -Force -Recurse -Destination "./out/vanillafault (Short Swords)"
+Copy-Item -Path "./variation_files/short_swords/*" -Force -Recurse -Destination "./out/vanillafault (Short Swords)/"
 
 # Bedrock edition
-Get-ChildItem -Path "./out/DsPvPv2 (Short Swords)/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/DsPvPv2 (Short Swords) Bedrock.zip"
-Move-Item "./out/DsPvPv2 (Short Swords) Bedrock.zip" "./out/DsPvPv2 (Short Swords) Bedrock.mcpack"
-Get-ChildItem -Path "./out/DsPvPv2 (Short Swords)/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/DsPvPv2 (Short Swords) Bedrock.zip"
+Get-ChildItem -Path "./out/vanillafault (Short Swords)/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/vanillafault (Short Swords) Bedrock.zip"
+Move-Item "./out/vanillafault (Short Swords) Bedrock.zip" "./out/vanillafault (Short Swords) Bedrock.mcpack"
+Get-ChildItem -Path "./out/vanillafault (Short Swords)/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/vanillafault (Short Swords) Bedrock.zip"
 
 # Java edition
-Get-ChildItem -Path "./out/DsPvPv2 (Short Swords)/" | Compress-Archive -Force -DestinationPath "./out/DsPvPv2 (Short Swords) Java.zip"
+Get-ChildItem -Path "./out/vanillafault (Short Swords)/" | Compress-Archive -Force -DestinationPath "./out/vanillafault (Short Swords) Java.zip"
 
-### Variation DsPvPv2 (Short Swords and Short Guards)
-Copy-Item -Path "./pack/" -Force -Recurse -Destination "./out/DsPvPv2 (Short Swords and Short Guards)"
-Copy-Item -Path "./variation_files/short_swords_guard/*" -Force -Recurse -Destination "./out/DsPvPv2 (Short Swords and Short Guards)/"
+### Variation vanillafault (Short Swords and Short Guards)
+Copy-Item -Path "./pack/" -Force -Recurse -Destination "./out/vanillafault (Short Swords and Short Guards)"
+Copy-Item -Path "./variation_files/short_swords_guard/*" -Force -Recurse -Destination "./out/vanillafault (Short Swords and Short Guards)/"
 
 # Bedrock edition
-Get-ChildItem -Path "./out/DsPvPv2 (Short Swords and Short Guards)/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/DsPvPv2 (Short Swords and Short Guards) Bedrock.zip"
-Move-Item "./out/DsPvPv2 (Short Swords and Short Guards) Bedrock.zip" "./out/DsPvPv2 (Short Swords and Short Guards) Bedrock.mcpack"
-Get-ChildItem -Path "./out/DsPvPv2 (Short Swords and Short Guards)/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/DsPvPv2 (Short Swords and Short Guards) Bedrock.zip"
+Get-ChildItem -Path "./out/vanillafault (Short Swords and Short Guards)/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/vanillafault (Short Swords and Short Guards) Bedrock.zip"
+Move-Item "./out/vanillafault (Short Swords and Short Guards) Bedrock.zip" "./out/vanillafault (Short Swords and Short Guards) Bedrock.mcpack"
+Get-ChildItem -Path "./out/vanillafault (Short Swords and Short Guards)/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/vanillafault (Short Swords and Short Guards) Bedrock.zip"
 
 # Java edition
-Get-ChildItem -Path "./out/DsPvPv2 (Short Swords and Short Guards)/" | Compress-Archive -Force -DestinationPath "./out/DsPvPv2 (Short Swords and Short Guards) Java.zip"
+Get-ChildItem -Path "./out/vanillafault (Short Swords and Short Guards)/" | Compress-Archive -Force -DestinationPath "./out/vanillafault (Short Swords and Short Guards) Java.zip"
 
-### Variation DsPvPv2 (Medium Swords)
-Copy-Item -Path "./pack/" -Force -Recurse -Destination "./out/DsPvPv2 (Medium Swords)"
-Copy-Item -Path "./variation_files/medium_swords/*" -Force -Recurse -Destination "./out/DsPvPv2 (Medium Swords)/"
+### Variation vanillafault (Medium Swords)
+Copy-Item -Path "./pack/" -Force -Recurse -Destination "./out/vanillafault (Medium Swords)"
+Copy-Item -Path "./variation_files/medium_swords/*" -Force -Recurse -Destination "./out/vanillafault (Medium Swords)/"
 
 # Bedrock edition
-Get-ChildItem -Path "./out/DsPvPv2 (Medium Swords)/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/DsPvPv2 (Medium Swords) Bedrock.zip"
-Move-Item "./out/DsPvPv2 (Medium Swords) Bedrock.zip" "./out/DsPvPv2 (Medium Swords) Bedrock.mcpack"
-Get-ChildItem -Path "./out/DsPvPv2 (Medium Swords)/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/DsPvPv2 (Medium Swords) Bedrock.zip"
+Get-ChildItem -Path "./out/vanillafault (Medium Swords)/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/vanillafault (Medium Swords) Bedrock.zip"
+Move-Item "./out/vanillafault (Medium Swords) Bedrock.zip" "./out/vanillafault (Medium Swords) Bedrock.mcpack"
+Get-ChildItem -Path "./out/vanillafault (Medium Swords)/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/vanillafault (Medium Swords) Bedrock.zip"
 
 # Java edition
-Get-ChildItem -Path "./out/DsPvPv2 (Medium Swords)/" | Compress-Archive -Force -DestinationPath "./out/DsPvPv2 (Medium Swords) Java.zip"
+Get-ChildItem -Path "./out/vanillafault (Medium Swords)/" | Compress-Archive -Force -DestinationPath "./out/vanillafault (Medium Swords) Java.zip"
 
-### Variation DsPvPv2 (Henry's 1.14 default edit Swords)
-Copy-Item -Path "./pack/" -Force -Recurse -Destination "./out/DsPvPv2 (Henry's 1.14 default edit Swords)"
-Copy-Item -Path "./variation_files/henry_swords/*" -Force -Recurse -Destination "./out/DsPvPv2 (Henry's 1.14 default edit Swords)/"
+### Variation vanillafault (Henry's 1.14 default edit Swords)
+Copy-Item -Path "./pack/" -Force -Recurse -Destination "./out/vanillafault (Henry's 1.14 default edit Swords)"
+Copy-Item -Path "./variation_files/henry_swords/*" -Force -Recurse -Destination "./out/vanillafault (Henry's 1.14 default edit Swords)/"
 
 # Bedrock edition
-Get-ChildItem -Path "./out/DsPvPv2 (Henry's 1.14 default edit Swords)/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/DsPvPv2 (Henry's 1.14 default edit Swords) Bedrock.zip"
-Move-Item "./out/DsPvPv2 (Henry's 1.14 default edit Swords) Bedrock.zip" "./out/DsPvPv2 (Henry's 1.14 default edit Swords) Bedrock.mcpack"
-Get-ChildItem -Path "./out/DsPvPv2 (Henry's 1.14 default edit Swords)/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/DsPvPv2 (Henry's 1.14 default edit Swords) Bedrock.zip"
+Get-ChildItem -Path "./out/vanillafault (Henry's 1.14 default edit Swords)/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/vanillafault (Henry's 1.14 default edit Swords) Bedrock.zip"
+Move-Item "./out/vanillafault (Henry's 1.14 default edit Swords) Bedrock.zip" "./out/vanillafault (Henry's 1.14 default edit Swords) Bedrock.mcpack"
+Get-ChildItem -Path "./out/vanillafault (Henry's 1.14 default edit Swords)/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/vanillafault (Henry's 1.14 default edit Swords) Bedrock.zip"
 
 # Java edition
-Get-ChildItem -Path "./out/DsPvPv2 (Henry's 1.14 default edit Swords)/" | Compress-Archive -Force -DestinationPath "./out/DsPvPv2 (Henry's 1.14 default edit Swords) Java.zip"
+Get-ChildItem -Path "./out/vanillafault (Henry's 1.14 default edit Swords)/" | Compress-Archive -Force -DestinationPath "./out/vanillafault (Henry's 1.14 default edit Swords) Java.zip"
 
-### Variation DsPvPv2 (Azula Swords)
-Copy-Item -Path "./pack/" -Force -Recurse -Destination "./out/DsPvPv2 (Azula Swords)"
-Copy-Item -Path "./variation_files/azula_swords/*" -Force -Recurse -Destination "./out/DsPvPv2 (Azula Swords)/"
+### Variation vanillafault (Azula Swords)
+Copy-Item -Path "./pack/" -Force -Recurse -Destination "./out/vanillafault (Azula Swords)"
+Copy-Item -Path "./variation_files/azula_swords/*" -Force -Recurse -Destination "./out/vanillafault (Azula Swords)/"
 
 # Bedrock edition
-Get-ChildItem -Path "./out/DsPvPv2 (Azula Swords)/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/DsPvPv2 (Azula Swords) Bedrock.zip"
-Move-Item "./out/DsPvPv2 (Azula Swords) Bedrock.zip" "./out/DsPvPv2 (Azula Swords) Bedrock.mcpack"
-Get-ChildItem -Path "./out/DsPvPv2 (Azula Swords)/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/DsPvPv2 (Azula Swords) Bedrock.zip"
+Get-ChildItem -Path "./out/vanillafault (Azula Swords)/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/vanillafault (Azula Swords) Bedrock.zip"
+Move-Item "./out/vanillafault (Azula Swords) Bedrock.zip" "./out/vanillafault (Azula Swords) Bedrock.mcpack"
+Get-ChildItem -Path "./out/vanillafault (Azula Swords)/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/vanillafault (Azula Swords) Bedrock.zip"
 
 # Java edition
-Get-ChildItem -Path "./out/DsPvPv2 (Azula Swords)/" | Compress-Archive -Force -DestinationPath "./out/DsPvPv2 (Azula Swords) Java.zip"
+Get-ChildItem -Path "./out/vanillafault (Azula Swords)/" | Compress-Archive -Force -DestinationPath "./out/vanillafault (Azula Swords) Java.zip"
