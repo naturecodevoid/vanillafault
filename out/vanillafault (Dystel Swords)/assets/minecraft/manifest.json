@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "Swords from Dystel v1, particles by henrypacks on YouTube, made by naturecodevoid@GitHub, DsPvP by @disomocan7",
+        "name": "vanillafault (Short Swords)",
+        "uuid": "e1a72038-6171-4a76-90a0-c422d27adab1",
+        "version": [1, 10, 0]
+    },
+    "modules": [
+        {
+            "description": "Swords from Dystel v1, particles by henrypacks on YouTube, made by naturecodevoid@GitHub, DsPvP by @disomocan7",
+            "type": "resources",
+            "uuid": "182ff169-045b-49cb-9ee1-2437200ebc4f",
+            "version": [1, 10, 0]
+        }
+    ]
+}

@@ -23,6 +23,10 @@
         {
             "name": "vanillafault (Azula Swords)",
             "path": "variation_files/azula_swords"
+        },
+        {
+            "name": "vanillafault (Dystel Swords)",
+            "path": "variation_files/dystel_swords"
         }
     ],
     "basePack": {

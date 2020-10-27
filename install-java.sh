@@ -62,6 +62,11 @@ rm -R "$RESOURCE_FOLDER/vanillafault (Azula Swords)"
 
 mkdir "$RESOURCE_FOLDER/vanillafault (Azula Swords)"
 
+### Variation vanillafault (Dystel Swords)
+rm -R "$RESOURCE_FOLDER/vanillafault (Dystel Swords)"
+
+mkdir "$RESOURCE_FOLDER/vanillafault (Dystel Swords)"
+
 echo
 echo ==============================
 echo Copying the files...
@@ -88,6 +93,9 @@ cp -v -f -R "$PWD/out/vanillafault (Henry's 1.14 default edit Swords)/." "$RESOU
 
 ### Variation vanillafault (Azula Swords)
 cp -v -f -R "$PWD/out/vanillafault (Azula Swords)/." "$RESOURCE_FOLDER/vanillafault (Azula Swords)"
+
+### Variation vanillafault (Dystel Swords)
+cp -v -f -R "$PWD/out/vanillafault (Dystel Swords)/." "$RESOURCE_FOLDER/vanillafault (Dystel Swords)"
 
 echo
 echo Done!

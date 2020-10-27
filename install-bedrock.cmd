@@ -54,6 +54,11 @@ rm -R "%RESOURCE_FOLDER%/vanillafault (Azula Swords)"
 
 md "%RESOURCE_FOLDER%/vanillafault (Azula Swords)"
 
+:: :: Variation vanillafault (Dystel Swords)
+rm -R "%RESOURCE_FOLDER%/vanillafault (Dystel Swords)"
+
+md "%RESOURCE_FOLDER%/vanillafault (Dystel Swords)"
+
 echo
 echo ==============================
 echo Copying the files...
@@ -80,6 +85,9 @@ robocopy /S /V /MIR "%~dp0/out/vanillafault (Henry's 1.14 default edit Swords)/a
 
 :: :: Variation vanillafault (Azula Swords)
 robocopy /S /V /MIR "%~dp0/out/vanillafault (Azula Swords)/assets/minecraft/." "%RESOURCE_FOLDER%/vanillafault (Azula Swords)"
+
+:: :: Variation vanillafault (Dystel Swords)
+robocopy /S /V /MIR "%~dp0/out/vanillafault (Dystel Swords)/assets/minecraft/." "%RESOURCE_FOLDER%/vanillafault (Dystel Swords)"
 
 echo Done!
 

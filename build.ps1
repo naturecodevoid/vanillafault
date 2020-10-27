@@ -91,3 +91,15 @@ Get-ChildItem -Path "./out/vanillafault (Azula Swords)/assets/minecraft/" | Comp
 
 # Java edition
 Get-ChildItem -Path "./out/vanillafault (Azula Swords)/" | Compress-Archive -Force -DestinationPath "./out/vanillafault (Azula Swords) Java.zip"
+
+### Variation vanillafault (Dystel Swords)
+Copy-Item -Path "./pack/" -Force -Recurse -Destination "./out/vanillafault (Dystel Swords)"
+Copy-Item -Path "./variation_files/dystel_swords/*" -Force -Recurse -Destination "./out/vanillafault (Dystel Swords)/"
+
+# Bedrock edition
+Get-ChildItem -Path "./out/vanillafault (Dystel Swords)/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/vanillafault (Dystel Swords) Bedrock.zip"
+Move-Item "./out/vanillafault (Dystel Swords) Bedrock.zip" "./out/vanillafault (Dystel Swords) Bedrock.mcpack"
+Get-ChildItem -Path "./out/vanillafault (Dystel Swords)/assets/minecraft/" | Compress-Archive -Force -DestinationPath "./out/vanillafault (Dystel Swords) Bedrock.zip"
+
+# Java edition
+Get-ChildItem -Path "./out/vanillafault (Dystel Swords)/" | Compress-Archive -Force -DestinationPath "./out/vanillafault (Dystel Swords) Java.zip"

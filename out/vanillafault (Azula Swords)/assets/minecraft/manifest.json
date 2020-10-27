@@ -4,14 +4,14 @@
         "description": "Swords by keno on YouTube, particles by henrypacks on YouTube, made by naturecodevoid@GitHub, DsPvP by @disomocan7",
         "name": "vanillafault (Azula Swords)",
         "uuid": "b721516d-f93e-4d81-9c87-d563b957c70d",
-        "version": [1, 9, 0]
+        "version": [1, 10, 0]
     },
     "modules": [
         {
             "description": "Swords by keno on YouTube, particles by henrypacks on YouTube, made by naturecodevoid@GitHub, DsPvP by @disomocan7",
             "type": "resources",
             "uuid": "a99d3a6b-462b-4dbc-92dd-2aa71745d646",
-            "version": [1, 9, 0]
+            "version": [1, 10, 0]
         }
     ]
 }

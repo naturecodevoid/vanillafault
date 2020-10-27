@@ -4,14 +4,14 @@
         "description": "Particles by henrypacks on YouTube, made by naturecodevoid@GitHub, DsPvP by @disomocan7",
         "name": "vanillafault (Medium Swords)",
         "uuid": "f10ec998-6d96-4c4f-9a29-3115d1e27b0a",
-        "version": [1, 9, 0]
+        "version": [1, 10, 0]
     },
     "modules": [
         {
             "description": "Particles by henrypacks on YouTube, made by naturecodevoid@GitHub, DsPvP by @disomocan7",
             "type": "resources",
             "uuid": "f2ee71e3-9bbf-4929-a869-dcb8e7a67bb9",
-            "version": [1, 9, 0]
+            "version": [1, 10, 0]
         }
     ]
 }

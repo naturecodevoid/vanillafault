@@ -4,14 +4,14 @@
         "description": "Particles by henrypacks on YouTube, made by naturecodevoid@GitHub, DsPvP by @disomocan7",
         "name": "vanillafault (Short Swords)",
         "uuid": "46ce6eb0-5c0c-4d26-9e65-c86cb6b27c1d",
-        "version": [1, 9, 0]
+        "version": [1, 10, 0]
     },
     "modules": [
         {
             "description": "Particles by henrypacks on YouTube, made by naturecodevoid@GitHub, DsPvP by @disomocan7",
             "type": "resources",
             "uuid": "9c7999d8-e865-448d-a200-8de02bd43e80",
-            "version": [1, 9, 0]
+            "version": [1, 10, 0]
         }
     ]
 }
